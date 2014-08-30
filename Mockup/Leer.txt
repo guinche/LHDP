@@ -1,0 +1,2 @@
+Aquí se deben agregar:
+Los archivos para tener disponible las imágenes JPG o PNG dentro de un html

@@ -1,0 +1,6 @@
+Aqu’ se deben agregar:
+La estructura para la generaci—n de la maqueta
+HTML
+CSS
+JS
+IMG
