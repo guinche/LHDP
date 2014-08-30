@@ -1,0 +1,95 @@
+/* manapro.css */
+body{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	}
+
+
+@media screen and (min-width: 300px) and (max-width: 480px)  {
+	.container{
+		background-image: none;
+		background-repeat: no-repeat;
+		min-width: 100%;
+
+	}
+	.home{
+		background-image: url(../img/phone_home.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		max-width: 421px;
+		min-height: 2430px;
+	}
+   .container-int{
+		background-image: none;
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+	.interno{
+		background-image: url(../img/phone_galeria.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		max-width: 421px;
+		min-height: 2430px;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+	.container{
+		background-image: none;
+		background-repeat: no-repeat;
+		min-width: 100%;
+
+	}
+	.home{
+		background-image: url(../img/tablet_home.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		max-width: 768px;
+		min-height: 2861px;
+	}
+	.container-int{
+	background-image: none;
+	background-repeat: no-repeat;
+	width: 100%;
+
+	}
+	.interno{
+		background-image: url(../img/tablet_galeria.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		max-width:768px;
+		min-height: 2861px;
+	}
+}
+@media screen and (min-width: 960px){
+	.container{
+		background-image: url(../img/pc_home-back.jpg);
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+	.home{
+		background-image: url(../img/pc_home.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin-right: auto;
+		margin-left: auto;
+		width:100%;
+		max-width: 1900px;
+		min-height: 1870px;
+	}
+	 .container-int{
+		background-image: url(../img/pc_home-back.jpg);
+		background-repeat: repeat-x;
+		width: 100%;
+	}
+	.interno{
+		background-image: url(../img/pc_galeria.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		max-width: 1900px;
+		min-height: 1870px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
